@@ -1,0 +1,42 @@
+{
+    "tarih": "2026-06-24 15:06:59",
+    "hedef": "127.0.0.1",
+    "ozet": {
+        "KRITIK": 0,
+        "YUKSEK": 0,
+        "ORTA": 2,
+        "TEMIZ": 4
+    },
+    "bulgular": [
+        {
+            "kontrol": "SSH Root Login",
+            "risk": "ORTA",
+            "detay": "#PermitRootLogin prohibit-password\n# the setting of \"PermitRootLogin prohibit-password\"."
+        },
+        {
+            "kontrol": "Telnet Servisi",
+            "risk": "TEMIZ",
+            "detay": "Telnet kapali"
+        },
+        {
+            "kontrol": "Acik Port Sayisi",
+            "risk": "ORTA",
+            "detay": "10 port dinleniyor"
+        },
+        {
+            "kontrol": "Disk Dolulugu",
+            "risk": "TEMIZ",
+            "detay": "Disk kullanimi: 50%"
+        },
+        {
+            "kontrol": "Bekleyen Guncellemeler",
+            "risk": "TEMIZ",
+            "detay": "4 guncelleme bekliyor"
+        },
+        {
+            "kontrol": "Aktif Kullanici Sayisi",
+            "risk": "TEMIZ",
+            "detay": "0 kullanici aktif"
+        }
+    ]
+}
