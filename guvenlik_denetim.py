@@ -5,7 +5,7 @@ from datetime import datetime
 HOST = "127.0.0.1"
 PORT = 2222
 USER = "dilruba"
-PASS = "dmybs09123"
+PASS = "buraya_vm_sifren"
 
 def komut_calistir(ssh, komut):
     stdin, stdout, stderr = ssh.exec_command(komut)
